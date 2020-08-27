@@ -1,5 +1,5 @@
 import React from "react";
-import React14 from "./app/components/React14";
+import InlineStylingComponents from "./app/components/InlineStylingComponent";
 
 class App extends React.Component {
   // constructor(props) {
@@ -9,7 +9,7 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <React14 />
+        <InlineStylingComponents />
       </React.Fragment>
     );
   }
