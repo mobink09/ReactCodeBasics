@@ -55,7 +55,15 @@ class InlineStylingComponents extends React.Component {
         <div
           style={{ backgroundColor: "lime", width: "50%", paddingRight: 50 }}
         >
-          <h1>List Of Online Users</h1>
+          <h1
+            style={{
+              color: "magenta",
+              textShadow: "0 4px 5px rgba(0, 0, 0, 0.4)",
+              fontFamily: "cursive",
+            }}
+          >
+            List Of Online Users
+          </h1>
           <ul>{onlineUserList}</ul>
         </div>
       </div>
