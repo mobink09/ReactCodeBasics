@@ -1,0 +1,20 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: blueviolet;
+}
+
+.h4 {
+  display: inline;
+  padding: 3;
+}
+
+.h1 {
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  background-color: chartreuse;
+  color: dodgerblue;
+  border-radius: 20px;
+}
