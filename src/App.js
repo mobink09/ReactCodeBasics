@@ -1,5 +1,5 @@
 import React from "react";
-import GreetingTime from "./app/components/GreetingTime";
+import FromGreeting from "./app/components/FormGreeting";
 
 class App extends React.Component {
   // constructor(props) {
@@ -9,7 +9,7 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <GreetingTime />
+        <FromGreeting />
       </React.Fragment>
     );
   }
